@@ -14,7 +14,7 @@
 		14D8C52D192CF49000F050F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8C52C192CF49000F050F9 /* main.m */; };
 		14D8C531192CF49000F050F9 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8C530192CF49000F050F9 /* MYAppDelegate.m */; };
 		14D8C534192CF49000F050F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D8C532192CF49000F050F9 /* Main.storyboard */; };
-		14D8C537192CF49000F050F9 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8C536192CF49000F050F9 /* MYViewController.m */; };
+		14D8C537192CF49000F050F9 /* MYPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8C536192CF49000F050F9 /* MYPhotoViewController.m */; };
 		14D8C539192CF49000F050F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D8C538192CF49000F050F9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		14D8C52F192CF49000F050F9 /* MYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
 		14D8C530192CF49000F050F9 /* MYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
 		14D8C533192CF49000F050F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14D8C535192CF49000F050F9 /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
-		14D8C536192CF49000F050F9 /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		14D8C535192CF49000F050F9 /* MYPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYPhotoViewController.h; sourceTree = "<group>"; };
+		14D8C536192CF49000F050F9 /* MYPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYPhotoViewController.m; sourceTree = "<group>"; };
 		14D8C538192CF49000F050F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14D8C53F192CF49000F050F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -84,8 +84,8 @@
 				14D8C52F192CF49000F050F9 /* MYAppDelegate.h */,
 				14D8C530192CF49000F050F9 /* MYAppDelegate.m */,
 				14D8C532192CF49000F050F9 /* Main.storyboard */,
-				14D8C535192CF49000F050F9 /* MYViewController.h */,
-				14D8C536192CF49000F050F9 /* MYViewController.m */,
+				14D8C535192CF49000F050F9 /* MYPhotoViewController.h */,
+				14D8C536192CF49000F050F9 /* MYPhotoViewController.m */,
 				14D8C538192CF49000F050F9 /* Images.xcassets */,
 				14D8C527192CF49000F050F9 /* Supporting Files */,
 			);
@@ -169,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D8C537192CF49000F050F9 /* MYViewController.m in Sources */,
+				14D8C537192CF49000F050F9 /* MYPhotoViewController.m in Sources */,
 				14D8C531192CF49000F050F9 /* MYAppDelegate.m in Sources */,
 				14D8C52D192CF49000F050F9 /* main.m in Sources */,
 			);
@@ -312,6 +312,7 @@
 				14D8C551192CF49000F050F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

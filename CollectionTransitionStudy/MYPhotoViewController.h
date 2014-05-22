@@ -1,5 +1,5 @@
 //
-//  MYViewController.h
+//  MYPhotoViewController.h
 //  CollectionTransitionStudy
 //
 //  Created by adachi yuichi on 2014/05/21.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MYViewController : UIViewController
+@interface MYPhotoViewController : UIViewController
 
 @end
