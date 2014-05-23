@@ -16,6 +16,8 @@
 		14D8C534192CF49000F050F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D8C532192CF49000F050F9 /* Main.storyboard */; };
 		14D8C537192CF49000F050F9 /* MYPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8C536192CF49000F050F9 /* MYPhotoViewController.m */; };
 		14D8C539192CF49000F050F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D8C538192CF49000F050F9 /* Images.xcassets */; };
+		F7822CFA192DD1A800EB1A96 /* MYImageResourceService.m in Sources */ = {isa = PBXBuildFile; fileRef = F7822CF9192DD1A800EB1A96 /* MYImageResourceService.m */; };
+		F7822CFD192DD4EF00EB1A96 /* MYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7822CFC192DD4EF00EB1A96 /* MYPhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +35,10 @@
 		14D8C535192CF49000F050F9 /* MYPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYPhotoViewController.h; sourceTree = "<group>"; };
 		14D8C536192CF49000F050F9 /* MYPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYPhotoViewController.m; sourceTree = "<group>"; };
 		14D8C538192CF49000F050F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		14D8C53F192CF49000F050F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7822CF8192DD1A800EB1A96 /* MYImageResourceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYImageResourceService.h; sourceTree = "<group>"; };
+		F7822CF9192DD1A800EB1A96 /* MYImageResourceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYImageResourceService.m; sourceTree = "<group>"; };
+		F7822CFB192DD4EF00EB1A96 /* MYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPhotoCell.h; sourceTree = "<group>"; };
+		F7822CFC192DD4EF00EB1A96 /* MYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +78,6 @@
 				14D8C520192CF49000F050F9 /* Foundation.framework */,
 				14D8C522192CF49000F050F9 /* CoreGraphics.framework */,
 				14D8C524192CF49000F050F9 /* UIKit.framework */,
-				14D8C53F192CF49000F050F9 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +88,10 @@
 				14D8C52F192CF49000F050F9 /* MYAppDelegate.h */,
 				14D8C530192CF49000F050F9 /* MYAppDelegate.m */,
 				14D8C532192CF49000F050F9 /* Main.storyboard */,
+				F7822CF8192DD1A800EB1A96 /* MYImageResourceService.h */,
+				F7822CF9192DD1A800EB1A96 /* MYImageResourceService.m */,
+				F7822CFB192DD4EF00EB1A96 /* MYPhotoCell.h */,
+				F7822CFC192DD4EF00EB1A96 /* MYPhotoCell.m */,
 				14D8C535192CF49000F050F9 /* MYPhotoViewController.h */,
 				14D8C536192CF49000F050F9 /* MYPhotoViewController.m */,
 				14D8C538192CF49000F050F9 /* Images.xcassets */,
@@ -170,7 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D8C537192CF49000F050F9 /* MYPhotoViewController.m in Sources */,
+				F7822CFA192DD1A800EB1A96 /* MYImageResourceService.m in Sources */,
 				14D8C531192CF49000F050F9 /* MYAppDelegate.m in Sources */,
+				F7822CFD192DD4EF00EB1A96 /* MYPhotoCell.m in Sources */,
 				14D8C52D192CF49000F050F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

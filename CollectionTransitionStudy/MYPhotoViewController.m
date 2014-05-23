@@ -8,7 +8,15 @@
 
 #import "MYPhotoViewController.h"
 
-@interface MYPhotoViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
+#import "MYImageResourceService.h"
+
+static NSString *const CellIdentifier = @"CellIdentifier";
+
+@interface MYPhotoViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
+@property NSArray *photoImages;
 
 @end
 
@@ -19,7 +27,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.collectionView registerClass:[UICollectionViewCell class]
+            forCellWithReuseIdentifier:CellIdentifier];
+    self.collectionView.collectionViewLayout
+    
+    self.photoImages = [MYImageResourceService new].images;
+    
+    [self.collectionView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,12 +47,16 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    UICollectionViewCell *cell =
+    [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier
+                                              forIndexPath:indexPath];
+    
     return nil;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 0;
+    return self.photoImages.count;
 }
 
 @end
